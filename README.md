@@ -38,14 +38,16 @@ _**Issues**_
     Steps
 
     1. Open login page;
-        ExR : login page loaded
+    ExR : login page loaded
+
     2. Click register button
-        ExR : registration form loaded
-    3. Fill all fields with correct data
-    and click Register button;
-        ExR : page reloaded and login page is displayed
+    ExR : registration form loaded
+
+    3. Fill all fields with correct data and click Register button;
+    ExR : page reloaded and login page is displayed
+
     4. Login used credentials just created account
-        ExR : User has loggedIn to Address Book application.
+    ExR : User has loggedIn to Address Book application.
 
 **TC 02 : register user with existing email**
 
@@ -55,28 +57,30 @@ _User has been registered eg (usr01@gmail.com) and email will be used in testcas
     Steps
 
     1. Open login page;
-        ExR : login page loaded
+    ExR : login page loaded
+
     2. Click register button
-        ExR : registration form loaded
+    ExR : registration form loaded
+
     3. Fill correct data for (First Name (eg "Alan"), Last Name(eg "Smith")
-        and password (eg "123456")) fields
-        and type email already created account (eg "ki01@gmail.com")
-        and click Register button;
-        ExR : Error message "Validation: The email has already been taken." appears to user.
+       and password (eg "123456")) fields and type email already created account (eg "ki01@gmail.com")
+       and click Register button;
+    ExR : Error message "Validation: The email has already been taken." appears to user.
 
 **TC 03 : register user with not valid email**
 
     Steps
 
     1. Open login page;
-        ExR : login page loaded
+    ExR : login page loaded
+
     2. Click register button
-        ExR : registration form loaded
+    ExR : registration form loaded
+
     3. Fill correct data for (First Name (eg "Alan"), Last Name(eg "Smith")
-        and password (eg "123456")) fields
-        and type not valid value for email already created account
-        and click Register button;
-        ExR : "Validation: The email has already been taken." message appears to user.
+       and password (eg "123456")) fields and type not valid value for email already created account
+       and click Register button;
+    ExR : "Validation: The email has already been taken." message appears to user.
 
 **TC 04 : try register user but do not fill required fields**
 
@@ -91,29 +95,34 @@ _User has been registered eg (usr01@gmail.com) and email will be used in testcas
     Steps
 
     1. Open login page;
-            ExR : login page loaded
+    ExR : login page loaded
+
     2. Click register button
-        ExR : registration form loaded
+    ExR : registration form loaded
+
     3. Fill correct data for (First Name (eg "Alan"), Last Name(eg "Smith") and
-     email (eg "ki<timestamp>@gmail.com"  where timestamp is unique prefix)
-      and password less 6 characters (e.g "123"))
+       email (eg "ki<timestamp>@gmail.com"  where timestamp is unique prefix)
+       and password less 6 characters (e.g "123"))
+
     4. Click Register button;
-        ExR : Error message "The password must be at least 6 characters." appears to user.
+    ExR : Error message "The password must be at least 6 characters." appears to user.
 
 **TC 06 : register user without optional fields**
 
     Steps
 
     1. Open login page;
-            ExR : login page loaded
+    ExR : login page loaded
+
     2. Click register button
-        ExR : registration form loaded
+    ExR : registration form loaded
+
     3. Fill correct data for email (eg "ki<timestamp>@gmail.com"
-        where timestamp is unique prefix)
-        and password 6 characters (e.g "123456"))
-        and still blank First Name and Last Name
+       where timestamp is unique prefix) and password 6 characters (e.g "123456"))
+       and still blank First Name and Last Name
+
     4. Click Register button;
-        ExR : User has been registered.
+    ExR : User has been registered.
 
 ---
 
