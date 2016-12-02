@@ -5,13 +5,11 @@ import com.dreamfactory.addressbook.uitests.model.User;
 import com.dreamfactory.addressbook.uitests.model.UserFactory;
 import com.dreamfactory.addressbook.uitests.requirements.Application;
 import net.serenitybdd.junit.runners.SerenityRunner;
-import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Story;
 import net.thucydides.core.annotations.Title;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.WebDriver;
 
 import static com.dreamfactory.addressbook.uitests.messages.ValidationMessages.EMAIL_ALREADY_USED;
 
@@ -22,8 +20,6 @@ public class RegistrationTest extends BaseTest{
     private static final User EXISTING_USER = UserFactory.getExistingUser();
     private static final User USER_WITH_BLANK_OPTIONAL_FIELDS = UserFactory.getUserWithBlankOptionalFields();
 
-    @Managed(uniqueSession = true)
-    public WebDriver webdriver;
 
     @BeforeClass
     public static void createUserIfAbsent(){
