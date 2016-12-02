@@ -58,9 +58,10 @@ _User has been registered eg (usr01@gmail.com) and email will be used in testcas
         ExR : login page loaded
     2. Click register button
         ExR : registration form loaded
-    3. Fill correct data for (First Name (eg "Alan"), Last Name(eg "Smith") and password (eg "123456")) fields
-     and type email already created account (eg "ki01@gmail.com")
-    and click Register button;
+    3. Fill correct data for (First Name (eg "Alan"), Last Name(eg "Smith")
+        and password (eg "123456")) fields
+        and type email already created account (eg "ki01@gmail.com")
+        and click Register button;
         ExR : Error message "Validation: The email has already been taken." appears to user.
 
 **TC 03 : register user with not valid email**
@@ -71,9 +72,10 @@ _User has been registered eg (usr01@gmail.com) and email will be used in testcas
         ExR : login page loaded
     2. Click register button
         ExR : registration form loaded
-    3. Fill correct data for (First Name (eg "Alan"), Last Name(eg "Smith") and password (eg "123456")) fields
-    and type not valid value for email already created account
-    and click Register button;
+    3. Fill correct data for (First Name (eg "Alan"), Last Name(eg "Smith")
+        and password (eg "123456")) fields
+        and type not valid value for email already created account
+        and click Register button;
         ExR : "Validation: The email has already been taken." message appears to user.
 
 **TC 04 : try register user but do not fill required fields**
@@ -93,7 +95,8 @@ _User has been registered eg (usr01@gmail.com) and email will be used in testcas
     2. Click register button
         ExR : registration form loaded
     3. Fill correct data for (First Name (eg "Alan"), Last Name(eg "Smith") and
-     email (eg "ki<timestamp>@gmail.com"  where timestamp is unique prefix) and password less 6 characters (e.g "123"))
+     email (eg "ki<timestamp>@gmail.com"  where timestamp is unique prefix)
+      and password less 6 characters (e.g "123"))
     4. Click Register button;
         ExR : Error message "The password must be at least 6 characters." appears to user.
 
@@ -105,9 +108,10 @@ _User has been registered eg (usr01@gmail.com) and email will be used in testcas
             ExR : login page loaded
     2. Click register button
         ExR : registration form loaded
-    3. Fill correct data for email (eg "ki<timestamp>@gmail.com"  where timestamp is unique prefix)
-    and password 6 characters (e.g "123456"))
-    and still blank First Name and Last Name
+    3. Fill correct data for email (eg "ki<timestamp>@gmail.com"
+        where timestamp is unique prefix)
+        and password 6 characters (e.g "123456"))
+        and still blank First Name and Last Name
     4. Click Register button;
         ExR : User has been registered.
 
