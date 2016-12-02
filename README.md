@@ -110,3 +110,15 @@ _User has been registered eg (usr01@gmail.com) and email will be used in testcas
     and still blank First Name and Last Name
     4. Click Register button;
         ExR : User has been registered.
+
+---
+
+###Run tests from command line:
+
+1) in terminal open project directory
+
+2) execute
+
+    mvn integration-test serenity:aggregate
+
+3) find html report in /target/site/ then open in browser index.html
