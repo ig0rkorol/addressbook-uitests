@@ -93,8 +93,6 @@ RUN wget --no-verbose -O /tmp/chromedriver_linux64.zip http://chromedriver.stora
   && chmod 755 /opt/selenium/chromedriver-$CHROME_DRIVER_VERSION \
   && ln -fs /opt/selenium/chromedriver-$CHROME_DRIVER_VERSION /usr/bin/chromedriver
 
-
-
 RUN mkdir /tmp/.X11-unix
 RUN chmod -R go-rwx /tmp/* /tmp/.[!.]*
 RUN chmod 1777 /tmp/.X11-unix
