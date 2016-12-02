@@ -8,5 +8,5 @@ public class ValidationMessages {
     public static final String EMAIL_REQUIRED = "The email field is required.";
     public static final String PASSWORD_REQUIRED = "The password field is required.";
     public static final String EMAIL_INCORRECT = "The email must be a valid email address.";
-    public static final String EMAIL_LENGTH_WRONG = "The password must be at least 6 characters.";
+    public static final String PASSWORD_LENGTH_WRONG = "The password must be at least 6 characters.";
 }

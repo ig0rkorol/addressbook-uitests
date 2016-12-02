@@ -46,7 +46,7 @@ public class RegistrationFormValidationsTest extends BaseTest{
                 {UserFactory.getUserWithoutEmail(), ValidationMessages.EMAIL_REQUIRED},
                 {UserFactory.getUserWithoutPassword(), ValidationMessages.PASSWORD_REQUIRED},
                 {UserFactory.getUserWithInvalidEmail(), ValidationMessages.EMAIL_INCORRECT},
-                {UserFactory.getUserWithPasswordThreeSymbolsLength(), ValidationMessages.EMAIL_LENGTH_WRONG}
+                {UserFactory.getUserWithPasswordThreeSymbolsLength(), ValidationMessages.PASSWORD_LENGTH_WRONG}
         });
     }
 

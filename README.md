@@ -27,6 +27,14 @@ _**Issues**_
 
     1. Required fields should be marked with * symbol or text label "Required*";
     2. "Error : Validation failed" is not user friendly. Messages should be informative.
+
+      Example :
+
+        User type password less 6 symbols length so validation message should displayed
+
+        Actual : "Error : Validation failed" message had been displayed
+        Expected : "Error : The password must be at least 6 characters."
+
     3. After success registration message about it should be displayed.
 
 **_Preconditions:_**
