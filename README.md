@@ -117,3 +117,15 @@ _User has been registered eg (usr01@gmail.com) and email will be used in testcas
     mvn integration-test serenity:aggregate
 
 3) find html report in /target/site/ then open in browser index.html
+
+###Run tests with Docker:
+1) open Docker Terminal
+
+2) goto project directory and execute
+
+    docker build -t addressbook-uitests .
+
+3) after build has completed run test in docker use Firefox browser :
+
+    docker run --rm -i -v "$PWD":/home/remoteuser/serenity-project/ addressbook-uitests /bin/bash -c "Xvfb :99 & export DISPLAY=:99 && mvn clean verify -Dwebdriver.driver=firefox"
+
