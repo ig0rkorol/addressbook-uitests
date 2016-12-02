@@ -29,7 +29,6 @@ _**Issues**_
     2. "Error : Validation failed" is not user friendly. Messages should be informative.
 
       Example :
-
         User type password less 6 symbols length so validation message should displayed
 
         Actual : "Error : Validation failed" message had been displayed
