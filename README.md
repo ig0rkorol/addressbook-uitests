@@ -72,9 +72,9 @@ _User has been registered eg (usr01@gmail.com) and email will be used in testcas
     Steps
 
     1. Fill correct data for (First Name (eg "Alan"), Last Name(eg "Smith")
-       and password (eg "123456")) fields and type not valid value for email already created account
+       and password (eg "123456")) fields and type not valid value for email
        and click Register button;
-    ExR : "Validation: The email has already been taken." message appears to user.
+    ExR : "Validation: The email must be a valid email address." message appears to user.
 
 **TC 04 : try register user but do not fill required fields**
 
